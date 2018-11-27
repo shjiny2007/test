@@ -1,3 +1,5 @@
+import org.apache.ibatis.reflection.SystemMetaObject;
+
 /**
  * 
  * <pre>
@@ -19,5 +21,8 @@
  *</pre>
  */
 public class Test {
-
+      public static void main(String[] args) {
+    	  System.out.println("홍길동");
+    	  System.out.println("김길동");
+      }
 }
